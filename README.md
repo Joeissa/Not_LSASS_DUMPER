@@ -3,9 +3,17 @@ This is a simple powershell python script that will help you dump **lsass** with
 this script uses 2 libraries , subprocess and psutil.
 
 **How to use :**
- 1. pip install psutil
- 2. python DMP.py
+ - pip install psutil
+ - python DMP.py
 
-Please note ! the script edits the local execution policy " Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force "
-to reverse the effect used this command - " Set-ExecutionPolicy Restricted -Scope CurrentUser -Force "
-the current policy can be viewed with this command - " Get-ExecutionPolicy "
+**Please note !** 
+
+ - the script edits the local execution policy " Set-ExecutionPolicy
+   Unrestricted -Scope CurrentUser -Force " 
+
+ - to reverse the effect used    this command - " Set-ExecutionPolicy
+   Restricted -Scope CurrentUser
+-Force " 
+
+ - the current policy can be viewed with this command - "
+   Get-ExecutionPolicy "
