@@ -3,17 +3,22 @@ This is a simple powershell python script that will help you dump **lsass** with
 this script uses 2 libraries , subprocess and psutil.
 
 **How to use :**
- - pip install psutil
- - python DMP.py
+ 1. pip install psutil
+ 2. python DMP.py
 
 **Please note !** 
 
- - the script edits the local execution policy " Set-ExecutionPolicy
+ 3. the script edits the local execution policy " Set-ExecutionPolicy
    Unrestricted -Scope CurrentUser -Force " 
 
- - to reverse the effect used    this command - " Set-ExecutionPolicy
+ 4. to reverse the effect used    this command - " Set-ExecutionPolicy
    Restricted -Scope CurrentUser
 -Force " 
 
- - the current policy can be viewed with this command - "
+ 5. the current policy can be viewed with this command - "
    Get-ExecutionPolicy "
+
+ - [x] TODO List:
+ - [ ] Obfuscation to bypass Win-Defender.
+ - [ ] Additional Features
+ 
